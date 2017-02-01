@@ -1,0 +1,36 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*<app asp-prerender-module="ClientApp/dist/mainserver">Loading...</app>*@
+
+<div id="app">
+    @*
+    <h1>IC DEMO - VUE.JS</h1>
+    <p>
+        <!-- use router-link component for navigation. -->
+        <!-- specify the link by passing the `to` prop. -->
+        <!-- <router-link> will be rendered as an `<a>` tag by default -->
+        <router-link to="/foo">Go to Foo</router-link>
+        <router-link to="/bar">Go to Bar</router-link>
+    </p>
+    *@
+    <div class='container-fluid'>
+        <div class='row'>
+            <div class='col-sm-3'>
+                <ic-nav-menu></ic-nav-menu>
+            </div>
+            <div class='col-sm-9 body-content'>
+                <!-- route outlet -->
+                <!-- component matched by the route will render here -->
+                <router-view></router-view>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- built files will be auto injected -->
+@*<script src="~/dist/vendor.js" asp-append-version="true"></script>*@
+
+@section scripts {
+    <script src="~/dist/mainclient.js" asp-append-version="true"></script>
+}
