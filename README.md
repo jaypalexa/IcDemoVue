@@ -2,12 +2,16 @@
 
 Proof of concept of a Vue.js frontend and a .NET Core Web API service layer.
 
+## Prerequisites:
+
+* [Visual Studio 2015 (soon to migrate to VS2017)](https://www.visualstudio.com/vs/)
+* [Node.js 6.9.2](https://nodejs.org/en/)
+* npm 4.1.1 (bundled in as part of the Node.js install)
+
 ## This application currently consists of:
 
 * .NET Core 1.0
 * Vue.js 2.1.6
-* Node 6.9.2
-* npm 4.1.1
 * webpack 1.13.2
 
 ## TODO:
@@ -36,7 +40,7 @@ Proof of concept of a Vue.js frontend and a .NET Core Web API service layer.
   * [webpack 1.x] (https://webpack.github.io)
   * [webpack 2.x] (https://webpack.js.org/)
 
-* Based on:
+## References:
   * [ASP.NET Core + Angular 2 template for Visual Studio by Steve Sanderson](http://blog.stevensanderson.com/2016/10/04/angular2-template-for-visual-studio/)
   * [Microsoft ASP.NET Core JavaScript Services templates by Steve Sanderson](https://github.com/aspnet/JavaScriptServices)
   * [ASP.NET Core with Vue.js + Webpack and hot module reloading, Part 1 by Nihal Talur](https://blog.iridiumion.xyz/2016/12/asp-net-core-with-vue-js-webpack-and-hot-module-reloading-part-1/)
@@ -45,3 +49,4 @@ Proof of concept of a Vue.js frontend and a .NET Core Web API service layer.
   * [ASP.NET Core, Angular with Webpack and Visual Studio by Damien Bod](https://damienbod.com/2016/06/12/asp-net-core-angular2-with-webpack-and-visual-studio/)
   * [IdentityServer4, Web API and Angular2 in a single ASP.NET Core project by Damien Bod](https://damienbod.com/2016/10/01/identityserver4-webapi-and-angular2-in-a-single-asp-net-core-project/)
   * [Build and deploy your ASP.NET Core app to Azure by Microsoft](https://www.visualstudio.com/en-us/docs/build/apps/aspnet/aspnetcore-to-azure)
+  * [Visual Studio 2015 - Fixing "Dependencies npm not installed" from fsevents with node on Windows](http://www.hanselman.com/blog/VisualStudio2015FixingDependenciesNpmNotInstalledFromFseventsWithNodeOnWindows.aspx)
